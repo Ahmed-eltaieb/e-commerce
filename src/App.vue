@@ -1,13 +1,17 @@
 <template>
   <main>
-    <header class="py-4 px-1 sm:px-2">
+    <header class="py-4 px-2 sm:px-2">
       <div
         class="container mx-auto flex gap-6 lg:gap-[20%] justify-between items-center"
       >
-        <font-awesome-icon icon="fa-bars" class="sm:hidden text-xl" />
+        <font-awesome-icon
+          icon="fa-bars"
+          class="md:hidden cursor-pointer text-3xl"
+          @click="navBar"
+        />
         <img src="./assets/logo.png" alt="logo" class="w-[150px]" />
         <input
-          class="border-2 border-gray-500 p-2 rounded-lg grow hidden sm:inline-block text-center"
+          class="border-2 border-gray-500 p-2 rounded-lg grow hidden md:inline-block text-center"
           type="search"
           id="search"
           placeholder="what are you looking for?"
@@ -20,31 +24,48 @@
       </div>
       <nav>
         <div
-          class="container flex justify-around text-main border p-3 border-x-0"
+          class="flex flex-col md:flex-row md:justify-around text-main md:border md:h-fit p-3 md:border-x-0 md:relative nav"
         >
-          <router-link class="py-1 px-2 rounded-sm" to="/">Home</router-link>
-          <router-link class="py-1 px-2 rounded-sm" to="/">Builds</router-link>
-          <router-link class="py-1 px-2 rounded-sm" to="/"
+          <font-awesome-icon
+            icon=" fa-circle-xmark"
+            class="text-white text-5xl cursor-pointer md:hidden"
+            @click="navBar"
+          />
+          <router-link class="py-1 px-2 rounded-sm" to="/"> Home</router-link>
+          <router-link class="py-1 px-2 rounded-sm" to="/b">Builds</router-link>
+          <router-link class="py-1 px-2 rounded-sm" to="/monitors"
             >Monitors</router-link
           >
-          <router-link class="py-1 px-2 rounded-sm" to="/"
+          <router-link class="py-1 px-2 rounded-sm" to="/g"
             >Gaming-chairs</router-link
           >
-          <router-link class="py-1 px-2 rounded-sm" to="/"
+          <router-link class="py-1 px-2 rounded-sm" to="/a"
             >Accessories</router-link
           >
         </div>
       </nav>
     </header>
-
+    <router-view :data="this.mainData" />
     <FooterComp></FooterComp>
   </main>
 </template>
 <script>
 import FooterComp from "@/components/FooterComp.vue";
+import data from "./data.json";
 export default {
   components: {
     FooterComp,
+  },
+  data() {
+    return {
+      showNav: false,
+      mainData: data,
+    };
+  },
+  methods: {
+    navBar() {
+      document.querySelector(".nav").classList.toggle("open");
+    },
   },
 };
 </script>
@@ -69,11 +90,30 @@ export default {
 //   }
 // }
 
+.nav {
+  @media (max-width: 767px) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+    transition: 0.7s;
+    transform: translatey(-100%);
+  }
+}
+.open {
+  transform: translatey(0%);
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  position: relative;
   color: #2c3e50;
   //   #search::after {
   //     content: " search";
@@ -86,12 +126,19 @@ nav {
 
   a {
     font-weight: bold;
+
     color: #2c3e50;
 
+    @media (max-width: 767px) {
+      color: #fff;
+    }
     &.router-link-exact-active {
       // color: #42b983;
       background-color: #333;
       color: #fff;
+      @media (max-width: 767px) {
+        color: indianred;
+      }
     }
   }
 }

@@ -1,7 +1,7 @@
 <template>
   <section class="text-footer">
     <div
-      class="services flex justify-around flex-wrap bg-lighted py-11 text-footer"
+      class="services flex flex-col sm:flex-row justify-around flex-wrap bg-lighted py-11 text-footer"
     >
       <div class="text-center text-lg mb-4">
         <font-awesome-icon
@@ -56,7 +56,7 @@
           />
         </div>
         <h3 class="font-bold">Working Hours</h3>
-        <p class="sm:w-[50%]">
+        <p class="w-[calc(100%-30px)]">
           Eltaieb store operates everyday from 10 AM to 6 PM, excluding official
           holidays
         </p>

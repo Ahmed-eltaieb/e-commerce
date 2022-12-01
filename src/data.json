@@ -1,0 +1,74 @@
+{
+  "monitors": [
+    {
+      "id": 1,
+      "name": "BenQ GW2780 27 inch IPS 1080P 60Hz 5ms With Built-in Speak",
+      "Brand": "BenQ",
+      "color": "Black",
+      "size": "27 Inches",
+      "price": "4,445",
+      "netPrice": 4445,
+      "img": "./data/monitors/mon1.webp"
+    },
+    {
+      "id": 2,
+      "name": "MSI Optix MAG273R 27 inch IPS 1080p 144Hz 1MS Gaming Monitor",
+      "Brand": "MSI",
+      "color": "Black",
+      "size": "27 Inches",
+      "price": "9,045",
+      "netPrice": 9045,
+      "img": "./data/monitors/mon2.webp"
+    },
+    {
+      "id": 3,
+      "name": "BenQ MOBIUZ EX2510S 24.5 Inch IPS 1080p 165Hz 1ms With Built-in Speaker Gaming Monitor",
+      "Brand": "BenQ",
+      "color": "Black",
+      "size": "27 Inches",
+      "price": "6,110",
+      "netPrice": 6110,
+      "img": "./data/monitors/mon3.webp"
+    },
+    {
+      "id": 4,
+      "name": "ASUS VA24EHE 23.8-inch IPS 1080p 75Hz 5ms Office Monitor",
+      "Brand": "ASUS",
+      "color": "Black",
+      "size": "27 Inches",
+      "price": " 4,270",
+      "netPrice": 4270,
+      "img": "./data/monitors/mon4.webp"
+    },
+    {
+      "id": 5,
+      "name": "ASUS TUF Gaming VG28UQL1A 28 inch IPS 2160p 4K 144Hz 1ms G-SYNC Compatible Gaming Monitor",
+      "Brand": "ASUS",
+      "color": "Black",
+      "size": "27 Inches",
+      "price": " 24,490",
+      "netPrice": 24490,
+      "img": "./data/monitors/mon5.webp"
+    },
+    {
+      "id": 6,
+      "name": "ASUS ProArt PA278QV 27 inch IPS (2560 x 1440) 2K 5MS 75Hz Professional Monitor",
+      "Brand": "ASUS",
+      "color": "Black",
+      "size": "27 Inches",
+      "price": "11,335",
+      "netPrice": 11335,
+      "img": "./data/monitors/mon6.webp"
+    },
+    {
+      "id": 7,
+      "name": "ASUS CG32UQ 32 inch VA (3840x2160) 4K 60Hz 5ms Console Gaming Monitor",
+      "Brand": "ASUS",
+      "color": "Black",
+      "size": "27 Inches",
+      "price": "14,570",
+      "netPrice": 14570,
+      "img": "./data/monitors/mon7.webp"
+    }
+  ]
+}
