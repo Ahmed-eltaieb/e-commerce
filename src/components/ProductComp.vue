@@ -6,7 +6,7 @@
       {{ product.name }}
     </h3>
     <img :src="require(`${product.img}`)" alt="" class="max-h-[50%]" />
-    <span class="text-red-700 text-lg font-bold">EGP 6,110</span>
+    <span class="text-red-700 text-lg font-bold">EGP {{ product.price }}</span>
     <button class="border font-bold text-red-700 mt-2">
       Add to cart
       <font-awesome-icon icon=" fa-cart-arrow-down" />
