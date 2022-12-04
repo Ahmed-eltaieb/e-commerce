@@ -32,14 +32,16 @@
             @click="navBar"
           />
           <router-link class="py-1 px-2 rounded-sm" to="/"> Home</router-link>
-          <router-link class="py-1 px-2 rounded-sm" to="/b">Builds</router-link>
+          <router-link class="py-1 px-2 rounded-sm" to="/laptops"
+            >Laptops</router-link
+          >
           <router-link class="py-1 px-2 rounded-sm" to="/monitors"
             >Monitors</router-link
           >
-          <router-link class="py-1 px-2 rounded-sm" to="/g"
+          <router-link class="py-1 px-2 rounded-sm" to="/chairs"
             >Gaming-chairs</router-link
           >
-          <router-link class="py-1 px-2 rounded-sm" to="/a"
+          <router-link class="py-1 px-2 rounded-sm" to="/accessories"
             >Accessories</router-link
           >
         </div>

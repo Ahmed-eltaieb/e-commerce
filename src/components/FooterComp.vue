@@ -1,5 +1,5 @@
 <template>
-  <section class="text-footer">
+  <section class="text-footer mt-3">
     <div
       class="services flex flex-col sm:flex-row justify-around flex-wrap bg-lighted py-11 text-footer"
     >

@@ -3,3 +3,7 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.container {
+  @apply mx-auto  md:px-1;
+}

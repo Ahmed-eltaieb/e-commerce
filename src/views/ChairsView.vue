@@ -1,9 +1,9 @@
 <template>
-  <main class="container flex flex-wrap justify-around p-2 pb-4 gap-10">
+  <main class="flex flex-wrap justify-around p-2 pb-4 gap-10">
     <ProductComp
-      v-for="(monitor, index) in this.monitors"
+      v-for="(chair, index) in this.chairs"
       :key="index"
-      :product="monitor"
+      :product="chair"
     />
   </main>
 </template>
@@ -12,20 +12,20 @@
 // @ is an alias to /src
 import ProductComp from "@/components/ProductComp.vue";
 export default {
-  name: "HomeView",
+  name: "ChairsView",
   components: {
     ProductComp,
   },
   data() {
     return {
-      monitors: this.data.monitors,
+      chairs: this.data.chairs,
     };
   },
   props: {
     data: Object,
   },
   mounted() {
-    console.log(this.monitors);
+    console.log(this.chairs);
   },
 };
 </script>

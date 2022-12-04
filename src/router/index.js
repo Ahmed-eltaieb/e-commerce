@@ -23,6 +23,27 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/MonitorsView.vue"),
   },
+  {
+    path: "/chairs",
+    name: "chairs",
+
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/ChairsView.vue"),
+  },
+  {
+    path: "/laptops",
+    name: "laptops",
+
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/LaptopsView.vue"),
+  },
+  {
+    path: "/accessories",
+    name: "accessories",
+
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/AccessoriesView.vue"),
+  },
 ];
 
 const router = createRouter({

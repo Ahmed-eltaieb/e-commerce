@@ -70,5 +70,212 @@
       "netPrice": 14570,
       "img": "./data/monitors/mon7.webp"
     }
+  ],
+  "chairs": [
+    {
+      "id": 1,
+      "name": "Corsair T1 Race Gaming Chair Black-Yellow",
+      "Brand": "Corsair ",
+      "color": "Black-Yellow",
+
+      "price": "7,500",
+      "netPrice": 7500,
+      "img": "./data/chairs/1.webp"
+    },
+    {
+      "id": 2,
+      "name": "Corsair T1 Race Gaming Chair Black-Red",
+      "Brand": "Corsair ",
+      "color": "Black-Red",
+
+      "price": "7,500",
+      "netPrice": 7500,
+      "img": "./data/chairs/2.webp"
+    },
+    {
+      "id": 3,
+      "name": "MSI MAG CH130 I FABRIC Gaming Chair",
+      "Brand": "MSI ",
+      "color": "gray",
+
+      "price": "10,810",
+      "netPrice": 10810,
+      "img": "./data/chairs/2.webp"
+    },
+    {
+      "id": 4,
+      "name": "Cooler Master CALIBER R1 Gaming Chair - Black-Blue",
+      "Brand": "Cooler Master",
+      "color": "Black-Blue",
+
+      "price": "7,000",
+      "netPrice": 7000,
+      "img": "./data/chairs/4.webp"
+    },
+    {
+      "id": 5,
+      "name": "Gigabyte AORUS AGC300 Gaming Chair - Black-Orange",
+      "Brand": "Gigabyte",
+      "color": "Black-Orange",
+
+      "price": "8,085",
+      "netPrice": 8085,
+      "img": "./data/chairs/5.webp"
+    },
+    {
+      "id": 6,
+      "name": "ThunderX3 DC3 Black-Cyan - Race-Cushion-V1 Gaming Chair",
+      "Brand": "ThunderX3 ",
+      "color": "Black-Cyan",
+
+      "price": "6,500",
+      "netPrice": 6500,
+      "img": "./data/chairs/6.webp"
+    },
+    {
+      "id": 7,
+      "name": "ThunderX3 BC7 Race-Cushion-V1-Black-White Gaming Chair",
+      "Brand": "ThunderX3 ",
+      "color": "Black-White",
+
+      "price": "7,730",
+      "netPrice": 7730,
+      "img": "./data/chairs/7.webp"
+    }
+  ],
+  "laptops": [
+    {
+      "id": 1,
+      "name": "Dell G15 5510 Gaming Laptop - Intel Core i5-10500H 6-Cores, 16GB RAM, 512GB SSD",
+      "Brand": "Dell ",
+      "color": "Grey",
+
+      "price": "19,194",
+      "netPrice": 19194,
+      "img": "./data/laptop/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "HP Probook 450 G8 Laptop - 11th Intel Core i7-1165G7, 8GB RAM",
+      "Brand": "HP ",
+      "color": "Silver",
+
+      "price": "20,777",
+      "netPrice": 20777,
+      "img": "./data/laptop/2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "HP Victus 16-d1011ne Gaming Laptop - 12th Intel Core i7",
+      "Brand": "HP ",
+      "color": "Silver",
+
+      "price": "39,945",
+      "netPrice": 39945,
+      "img": "./data/laptop/3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "L5 I711800H/16G/1TSSD/3070 8G/BLU",
+      "Brand": "Lenovo ",
+      "color": "Black",
+
+      "price": "47,096",
+      "netPrice": 47096,
+      "img": "./data/laptop/4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "HP Victus 16-d0016ne - Intel Core i5-11400H",
+      "Brand": "HP",
+      "color": "Silver",
+
+      "price": "25,999",
+      "netPrice": 25999,
+      "img": "./data/laptop/5.jpg"
+    },
+
+    {
+      "id": 6,
+      "name": "Dell Note Book, Gaming 12 Gen, inte Core I7",
+      "Brand": "Dell",
+      "color": "Black",
+
+      "price": "36,333",
+      "netPrice": 36333,
+      "img": "./data/laptop/6.jpg"
+    }
+  ],
+  "accessories": [
+    {
+      "id": 1,
+      "name": "ONIKUMA X2 Gaming Headset RGB Lights 40mm Driver ",
+      "Brand": "ONIKUMA ",
+      "color": "Black",
+
+      "price": "345",
+      "netPrice": 354,
+      "img": "./data/accessories/1.webp"
+    },
+    {
+      "id": 2,
+      "name": "Redragon NOTHOSAUR M606 Gaming Mouse",
+      "Brand": "Redragon",
+      "color": "Black",
+
+      "price": "420",
+      "netPrice": 420,
+      "img": "./data/accessories/2.webp"
+    },
+    {
+      "id": 3,
+      "name": "Redragon H320 Lamia RGB Gaming Headset with 7.1 Surround Sound & Noise Cancelling Microphone",
+      "Brand": "Redragon ",
+      "color": "Black",
+
+      "price": "750",
+      "netPrice": 750,
+      "img": "./data/accessories/3.webp"
+    },
+    {
+      "id": 4,
+      "name": "EVGA X17 , Wired, Black, Customizable 16,000 DPI Gaming Mouse",
+      "Brand": "EVGA",
+      "color": "Black",
+
+      "price": "1,050",
+      "netPrice": 1050,
+      "img": "./data/accessories/4.webp"
+    },
+    {
+      "id": 5,
+      "name": "ONIKUMA K1-B Camouflage Elite Stereo Gaming Headset - Camou Yellow",
+      "Brand": "ONIKUMA",
+      "color": "Camou Yellow",
+
+      "price": "345",
+      "netPrice": 345,
+      "img": "./data/accessories/5.webp"
+    },
+    {
+      "id": 6,
+      "name": "Redragon K512 SHIVA RGB Membrane Gaming Keyboard with Multimedia Keys",
+      "Brand": "Redragon",
+      "color": "RGB",
+
+      "price": "540",
+      "netPrice": 540,
+      "img": "./data/accessories/6.webp"
+    },
+    {
+      "id": 7,
+      "name": "Redragon K585 DITI One-Handed RGB Wired Mechanical Gaming Keyboard - Blue Switches",
+      "Brand": "Redragon",
+      "color": "RGB",
+
+      "price": "760",
+      "netPrice": 760,
+      "img": "./data/accessories/7.webp"
+    }
   ]
 }
