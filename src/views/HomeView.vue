@@ -42,7 +42,7 @@
     </section>
     <section class="container">
       <div
-        class="flex justify-around md:justify-betweenitems-center border-0 border-b-2 text-[#252a31]"
+        class="flex justify-around md:justify-between items-center border-0 border-b-2 text-[#252a31]"
       >
         <h3 class="text-xl font-bold py-3 border-0 border-b-2 border-red-500">
           Gaming-chairs
