@@ -17,6 +17,7 @@
           v-for="(monitor, index) in this.monitorsToView"
           :key="index"
           :product="monitor"
+          @cart="addToCart($event)"
         />
       </div>
     </section>
@@ -37,6 +38,7 @@
           v-for="(laptop, index) in this.laptopsToView"
           :key="index"
           :product="laptop"
+          @cart="addToCart($event)"
         />
       </div>
     </section>
@@ -57,6 +59,7 @@
           v-for="(chair, index) in this.chairsToView"
           :key="index"
           :product="chair"
+          @cart="addToCart($event)"
         />
       </div>
     </section>
@@ -77,6 +80,7 @@
           v-for="(accessory, index) in this.accessoriesToView"
           :key="index"
           :product="accessory"
+          @cart="addToCart($event)"
         />
       </div>
     </section>
@@ -104,5 +108,10 @@ export default {
     data: Object,
   },
   mounted() {},
+  methods: {
+    addToCart(pro) {
+      this.$emit("cart", pro);
+    },
+  },
 };
 </script>

@@ -33,7 +33,7 @@
       class="contact p-7 flex justify-around text-lg gap-2 flex-wrap bg-black text-white"
     >
       <div class="flex flex-col gap-2">
-        <img src="../assets/logo.png" alt="logo" class="w-[200px]" />
+        <img src="../assets/darken-logo.png" alt="logo" class="w-[200px]" />
         <span class="text-lg">
           <font-awesome-icon icon="fa-phone" />
           01281564370

@@ -4,6 +4,7 @@
       v-for="(monitor, index) in this.monitors"
       :key="index"
       :product="monitor"
+      @cart="addToCart($event)"
     />
   </main>
 </template>
@@ -24,8 +25,11 @@ export default {
   props: {
     data: Object,
   },
-  mounted() {
-    console.log(this.monitors);
+  mounted() {},
+  methods: {
+    addToCart(pro) {
+      this.$emit("cart", pro);
+    },
   },
 };
 </script>

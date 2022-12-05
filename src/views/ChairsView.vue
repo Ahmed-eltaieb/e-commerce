@@ -4,6 +4,7 @@
       v-for="(chair, index) in this.chairs"
       :key="index"
       :product="chair"
+      @cart="addToCart($event)"
     />
   </main>
 </template>
@@ -24,8 +25,11 @@ export default {
   props: {
     data: Object,
   },
-  mounted() {
-    console.log(this.chairs);
+  mounted() {},
+  methods: {
+    addToCart(pro) {
+      this.$emit("cart", pro);
+    },
   },
 };
 </script>

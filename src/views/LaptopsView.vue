@@ -4,6 +4,7 @@
       v-for="(laptop, index) in this.laptops"
       :key="index"
       :product="laptop"
+      @cart="addToCart($event)"
     />
   </main>
 </template>
@@ -25,5 +26,10 @@ export default {
     data: Object,
   },
   mounted() {},
+  methods: {
+    addToCart(pro) {
+      this.$emit("cart", pro);
+    },
+  },
 };
 </script>
