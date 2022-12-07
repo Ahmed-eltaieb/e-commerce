@@ -33,17 +33,28 @@
             class="text-white text-5xl cursor-pointer md:hidden"
             @click="navBar"
           />
-          <router-link class="py-1 px-2 rounded-sm" to="/"> Home</router-link>
-          <router-link class="py-1 px-2 rounded-sm" to="/laptops"
+          <router-link @click="navBar" class="py-1 px-2 rounded-sm" to="/">
+            Home</router-link
+          >
+          <router-link
+            @click="navBar"
+            class="py-1 px-2 rounded-sm"
+            to="/laptops"
             >Laptops</router-link
           >
-          <router-link class="py-1 px-2 rounded-sm" to="/monitors"
+          <router-link
+            @click="navBar"
+            class="py-1 px-2 rounded-sm"
+            to="/monitors"
             >Monitors</router-link
           >
-          <router-link class="py-1 px-2 rounded-sm" to="/chairs"
+          <router-link @click="navBar" class="py-1 px-2 rounded-sm" to="/chairs"
             >Gaming-chairs</router-link
           >
-          <router-link class="py-1 px-2 rounded-sm" to="/accessories"
+          <router-link
+            @click="navBar"
+            class="py-1 px-2 rounded-sm"
+            to="/accessories"
             >Accessories</router-link
           >
         </div>
